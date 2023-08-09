@@ -1,0 +1,15 @@
+{
+	"synthDirs": [
+		"/vhd/*.vhd"
+	],
+	"simDirs": [
+		"testBench/*.vhd"
+	],
+	"synthExcludeDirs": [],
+	"simExcludeDirs": [],
+	"boardName": "fabric12k",
+	"constraintsFilename": "fabric12k.lpf",
+	"vcdViewer" : "fabricvcd",
+	"ghdlOutputFilename": "out.vcd",
+	"defaultSimRunTimeMs" : 1
+}

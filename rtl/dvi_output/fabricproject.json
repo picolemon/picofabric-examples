@@ -1,0 +1,13 @@
+{
+	"synthDirs": [
+		"/vhd/*.vhd", "/vhd/*.v", "/vhd/*.sv"
+	],
+	"simDirs": [
+		"/testBench/*.vhd"
+	],
+	"synthExcludeDirs": [],
+	"simExcludeDirs": [],
+	"boardName": "fabric12k",
+	"constraintsFilename": "fabric12k.lpf",
+	"defaultSimRunTimeMs" : 31	
+}

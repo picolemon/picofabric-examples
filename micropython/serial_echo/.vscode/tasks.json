@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build PicoFabric Project",
+            "command": "${command:fabric-livesim.buildBitstreamProjectAndProgram}",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Simulate PicoFabric Project",
+            "command": "${command:fabric-livesim.simulateGhdlProject}",
+            "problemMatcher": []
+        }        
+    ]
+}
